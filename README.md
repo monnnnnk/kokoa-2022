@@ -1,3 +1,3 @@
-# Kokoa 2022
+# Kakao 2022
 
-CSS got so much better!
+HTML & CSS got so much better!
