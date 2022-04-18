@@ -1,0 +1,73 @@
+.welcome-header {
+  margin: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.welcome-header__text {
+  opacity: 0.5;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.log-in-form{
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.log-in-form input {
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  font-size: 18px;
+  transition: border-color 0.5s ease-in-out ;
+}
+
+.log-in-form input::placeholder {
+  opacity: 0.4;
+}
+
+.log-in-form input:focus:not([type="submit"]) {
+  border-color:  rgba(219, 33, 223, 0.821);
+}
+
+@keyframes jelly {
+  from{transform: scale(1,1);}
+  30%{transform: scale(1.25,0.75);}
+  40%{transform: scale(0.75,1.25);}
+  50%{transform: scale(1.15,0.85);}
+  65%{transform: scale(0.95,1.05);}
+  75%{transform: scale(1.05,0.95);}
+  to{transform: scale(1,1);}
+}
+.log-in-form input[type="submit"] {
+  cursor: pointer;
+  background-color: #de7bd8;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  opacity: 0.8;
+}
+
+.log-in-form input[type="submit"]:hover {
+  animation: jelly 0.2s ease;
+}
+.log-in-form a {
+  text-align: center;
+  text-decoration: none;
+  color:inherit;
+  font-size: 13px;
+}
+
+
+
+
+

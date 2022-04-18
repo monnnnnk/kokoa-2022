@@ -1,0 +1,27 @@
+.status-header {
+  display: flex;
+  justify-content: center; 
+  padding: 5px 3px;
+  
+}
+.status-header__column {
+  width: 33%;
+}
+
+.status-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-header__column:first-child span {
+  margin-right: 5px;
+} 
+
+.status-header__column .fa-battery-half{
+  margin: 5px;
+}
